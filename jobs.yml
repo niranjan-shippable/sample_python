@@ -1,0 +1,6 @@
+jobs:
+  - job:
+      name : sample_python
+      type : manifest
+      steps :
+        - GET resource5
