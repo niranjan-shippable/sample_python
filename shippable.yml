@@ -4,11 +4,18 @@ language: python
 python:
   - 3.4
 
+build:
+  ci:
+    - echo "here_askask_1"
+#    - hmmmmdasd $`fsdfdmm`
+
+
+
 # For xunit-file module to put results in shippable folder
-env:
-  - XUNIT_FILE=shippable/testresults/result.xml
+#env:
+#  - XUNIT_FILE=shippable/testresults/result.xml
 
 # Make folders for the reports, and create the SQL db
-before_script:
-  - mkdir -p shippable/testresults
-  - mkdir -p shippable/codecoverage
+#before_script:
+#  - mkdir -p shippable/testresults
+#  - mkdir -p shippable/codecoverage
