@@ -4,10 +4,6 @@ python:
   - 2.7
   - 3.5
 
-runtime:
-  nodePool: aarch_64ubuntu16_04BYON
-
-
 build:
   ci:
     - pip install -r requirements.txt
