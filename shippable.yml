@@ -6,7 +6,7 @@ python:
 
 build:
   pre_ci_boot:
-    image_name: drydockaarch64/u14pytall
+    image_name: drydockaarch64/u16pytall
     image_tag: master
     pull: true
     options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
