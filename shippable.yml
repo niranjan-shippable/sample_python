@@ -4,8 +4,8 @@ python:
   - 2.7
   - 3.5
 
-#runtime:
-#  nodePool: dynamic__x86_64__Ubuntu_14_04__c4_large
+runtime:
+  nodePool: dynamic__x86_64__Ubuntu_14_04__c4_large
 
 build:
   #pre_ci_boot:
