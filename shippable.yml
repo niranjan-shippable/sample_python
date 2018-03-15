@@ -6,6 +6,10 @@ python:
 runtime:
   nodePool: dynamic__x86_64__Ubuntu_14_04__c4_large
 
+branches:
+  only:
+    - release/*
+    
 build:
   #pre_ci_boot:
     #image_name: drydock/c7pytall
