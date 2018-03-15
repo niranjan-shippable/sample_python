@@ -14,6 +14,7 @@ build:
 
   ci:
     - echo "hello"
+    - @!#$%^&*( fail the job
     #- pip install -r requirements.txt
     #- mkdir -p shippable/testresults
     #- mkdir -p shippable/codecoverage
